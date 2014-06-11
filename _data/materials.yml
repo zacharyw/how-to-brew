@@ -1,0 +1,9 @@
+- name: "pourover"
+  materials:
+    1: "Dripper"
+    2: "Paper filter"
+    3: "Goose neck kettle"
+    4: "Grinder"
+    5: "Mug"
+    6: "8 ounces water"
+    7: "2 tablespoons coffee"

@@ -1,0 +1,12 @@
+<div class="requirements">
+	<h2>Required Materials</h2>
+	<ul>
+		{% for method in site.data.materials %}
+			{% if method.name == {{include.name}} %}
+			    {% for material in method.materials %}
+			    	<li>{{material[1]}}</li>
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
