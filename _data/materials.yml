@@ -5,5 +5,48 @@
     3: "Goose neck kettle"
     4: "Grinder"
     5: "Mug"
+    6: "16 ounces water"
+    7: "2 tablespoons coffee"
+
+- name: "coldbrew"
+  materials:
+    1: "Pitcher"
+    2: "Mesh strainer"
+    3: "Grinder"
+    4: "Paper filters"
+    5: "3.5 cups water"
+    6: "6 ounces coffee"
+
+- name: "aeropress"
+  materials:
+    1: "AeroPress"
+    2: "Paper filter"
+    3: "Stirrer"
+    4: "Grinder"
+    5: "Mug"
     6: "8 ounces water"
     7: "2 tablespoons coffee"
+
+- name: "drip"
+  materials:
+    1: "Drip machine"
+    2: "Paper filter"
+    3: "Grinder"
+    4: "Water"
+    5: "Coffee"
+
+- name: "frenchpress"
+  materials:
+    1: "French Press"
+    2: "Kettle"
+    3: "Grinder"
+    4: "Mug"
+    6: "8 ounces water"
+    7: "2 tablespoons coffee"
+
+- name: "simplesyrup"
+  materials:
+    1: "1 cup water"
+    2: "1 cup white sugar"
+    3: "Medium sauce pan"
+    4: "Syrup bottle or mason jar"
