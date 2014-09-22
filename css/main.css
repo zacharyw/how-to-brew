@@ -64,7 +64,7 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 #coffee {
-  color: coral;
+  color: #FF6600;
 }
 
 .site {
@@ -153,17 +153,17 @@ a:visited { color: #a0a; }
 }
 
 .content a {
-  color: hotpink;
+  color: dodgerblue;
   text-decoration: underline;
 }
 
 .content a:hover {
   text-decoration: none;
-  border-bottom: 1px dotted hotpink;
+  border-bottom: 1px dotted dodgerblue;
 }
 
 .content a:visited {
-  color: hotpink;
+  color: dodgerblue;
 }
 
 .content ul, ol {
@@ -208,6 +208,12 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 /* standard */
+.post img {
+  margin: 3em auto;
+  display: block;
+  border: 1px solid black;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -237,6 +243,12 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+@media all and (max-width: 49.9999em) {
+  .post img {
+    width: 90%;
+  }
 }
 
 
