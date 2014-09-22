@@ -1,46 +1,47 @@
 - name: "pourover"
   materials:
-    1: "Dripper"
-    2: "Paper filter"
-    3: "Goose neck kettle"
-    4: "Grinder"
-    5: "Mug"
+    1: '<a href="http://www.amazon.com/gp/product/B000P4D5HG/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000P4D5HG&linkCode=as2&tag=chea0d-20&linkId=IXYFQ6RVRARUUCLF">Dripper</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B000P4D5HG" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    2: '<a href="http://www.amazon.com/gp/product/B001U7CVEA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001U7CVEA&linkCode=as2&tag=chea0d-20&linkId=ZNJBO6BFBP3WWNO5">Paper Filter</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001U7CVEA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    3: '<a href="http://www.amazon.com/gp/product/B005YR0F40/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005YR0F40&linkCode=as2&tag=chea0d-20&linkId=QXOAU3P27I7E56TG">Gooseneck Kettle</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B005YR0F40" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    4: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20grinder&linkCode=ur2&qid=1411338718&rh=n%3A1055398%2Cn%3A289750%2Ck%3Acoffee%20grinder&rnid=1063498&tag=chea0d-20&linkId=542R3K3FCQS4ALXG">Grinder</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    5: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "16 ounces water"
     7: "2 tablespoons coffee"
 
 - name: "coldbrew"
   materials:
-    1: "Pitcher"
-    2: "Mesh strainer"
-    3: "Grinder"
-    4: "Paper filters"
+    1: "Bowl or Pitcher"
+    2: '<a href="http://www.amazon.com/gp/product/B001VZERX4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001VZERX4&linkCode=as2&tag=chea0d-20&linkId=U7O7DE4NLSZBCRT4">Mesh strainer</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001VZERX4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    3: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20grinder&linkCode=ur2&qid=1411338718&rh=n%3A1055398%2Cn%3A289750%2Ck%3Acoffee%20grinder&rnid=1063498&tag=chea0d-20&linkId=542R3K3FCQS4ALXG">Grinder</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    4: "Paper filters (4 cup)"
     5: "3.5 cups water"
     6: "6 ounces coffee"
 
 - name: "aeropress"
   materials:
-    1: "AeroPress"
-    2: "Paper filter"
+    1: '<a href="http://www.amazon.com/gp/product/B0047BIWSK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0047BIWSK&linkCode=as2&tag=chea0d-20&linkId=34BN54T6D4IE7OSX">AeroPress</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B0047BIWSK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    2: "Round AeroPress paper filter"
     3: "Stirrer"
-    4: "Grinder"
-    5: "Mug"
+    4: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20grinder&linkCode=ur2&qid=1411338718&rh=n%3A1055398%2Cn%3A289750%2Ck%3Acoffee%20grinder&rnid=1063498&tag=chea0d-20&linkId=542R3K3FCQS4ALXG">Grinder</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    5: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "8 ounces water"
     7: "2 tablespoons coffee"
 
 - name: "drip"
   materials:
-    1: "Drip machine"
+    1: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20maker&linkCode=ur2&qid=1411339270&rh=n%3A289745%2Ck%3Acoffee%20maker&rnid=2941120011&tag=chea0d-20&linkId=23AG6PPQ2PXRWTI6">Coffee Machine</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     2: "Paper filter"
-    3: "Grinder"
+    3: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20grinder&linkCode=ur2&qid=1411338718&rh=n%3A1055398%2Cn%3A289750%2Ck%3Acoffee%20grinder&rnid=1063498&tag=chea0d-20&linkId=542R3K3FCQS4ALXG">Grinder</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     4: "Water"
     5: "Coffee"
+    6: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
 
 - name: "frenchpress"
   materials:
-    1: "French Press"
-    2: "Kettle"
-    3: "Grinder"
-    4: "Mug"
+    1: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=french%20press&linkCode=ur2&qid=1411339371&rh=n%3A289749%2Ck%3Afrench%20press&rnid=2941120011&tag=chea0d-20&linkId=7NVJXU4GAQTMD5I3">French Press</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    2: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&bbn=1055398&camp=1789&creative=390957&keywords=kettle&linkCode=ur2&qid=1411339396&rh=n%3A1055398%2Ck%3Akettle&tag=chea0d-20&linkId=ILIVNFPUBQQIICDI">Kettle</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    3: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20grinder&linkCode=ur2&qid=1411338718&rh=n%3A1055398%2Cn%3A289750%2Ck%3Acoffee%20grinder&rnid=1063498&tag=chea0d-20&linkId=542R3K3FCQS4ALXG">Grinder</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    4: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "8 ounces water"
     7: "2 tablespoons coffee"
 
@@ -48,5 +49,5 @@
   materials:
     1: "1 cup water"
     2: "1 cup white sugar"
-    3: "Medium sauce pan"
-    4: "Syrup bottle or mason jar"
+    3: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=medium%20saucepan&linkCode=ur2&qid=1411339526&rh=n%3A1055398%2Cn%3A289827%2Ck%3Amedium%20saucepan&rnid=1063498&tag=chea0d-20&linkId=JFUNE5O7JU5F62QO">Sauce pan</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
+    4: '<a href="http://www.amazon.com/gp/product/B007OM9W2E/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007OM9W2E&linkCode=as2&tag=chea0d-20&linkId=6C6P5YYB3DWYQJIH">Bottle</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B007OM9W2E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> or <a href="http://www.amazon.com/gp/product/B00B80TJX0/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00B80TJX0&linkCode=as2&tag=chea0d-20&linkId=7EWXYWC2DWBL3PRS">Mason jar</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B00B80TJX0" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'

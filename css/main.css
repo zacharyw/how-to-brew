@@ -14,7 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  background-image: url('images/crossword.png');
+  font: 13.34px Roboto, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -22,12 +23,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { 
+  padding-bottom: .5em; 
+}
+
 p { margin: 1em 0; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
+
+.pattern {
+  overflow: hidden;
+}
 
 /*****************************************************************************/
 /*
@@ -45,7 +53,7 @@ a:visited { color: #a0a; }
 
 .posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: 'Roboto', Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
@@ -55,39 +63,111 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
+#coffee {
+  color: coral;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  margin: 3em 1em 2em 1em;
+  padding: 0 1em 0 1em;
   line-height: 1.5em;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: .5em;
+  
 }
 
 .header a {
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 300%;
   text-decoration: none;
+  color: black;
 }
+
 
 .title {
   display: inline-block;
-  margin-bottom: 2em;
 }
 
-.title a {
-  color: #a00;
+.top-nav {
+  text-align: center;
+  margin-right: auto;
+  padding: .3em 0;
+  border-bottom: .1em solid black;
+  border-top: .1em solid black;
 }
 
-.title a:hover {
+.top-nav a.extra {
+  color: #000;
+  text-decoration: none;
+  margin: 0 2em;
+}
+
+.top-nav a.extra:hover {
+  color: #fff;
+  background-color: coral;
+}
+
+.left-nav h2 {
+  margin-bottom: .5em;
+  font-size: 1.2em;
+}
+
+.left-nav ul {
+  line-height: 1.7em;
+  font-size: 1.1em;
+}
+
+.left-nav {
+  display: none;
+  position: static;
+  float: left;
+  width: 20%;
+  height: 100%;
+  clear: both;
+  overflow: hidden;
+  left: -16em;
+  margin-top: 2em;
+}
+
+.left-nav a.extra {
+  text-decoration: none;
+  padding-left: .5em;
   color: #000;
 }
 
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+.left-nav a.extra:hover {
+  text-decoration: underline;
+  padding-left: .7em;
 }
 
-.header a.extra:hover {
-  color: #000;
+.left-nav a.extra:visited {
+  color: coral;
+}
+
+.content a {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted hotpink;
+}
+
+.content a:visited {
+  color: hotpink;
+}
+
+.content ul, ol {
+  margin-left: 2em;
 }
 
 .meta {
@@ -157,4 +237,24 @@ a:visited { color: #a0a; }
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+@media all and (min-width: 50em) {
+  .left-nav {
+    display: block;
+  }
+
+  .header, .top-nav, .content {
+    margin-left: 20%;
+  }
+
+  .site {
+    width: 50em;
+    margin: 3em auto 2em;
+  }
+
+  #guides-link {
+    display: none;
+  }
 }
