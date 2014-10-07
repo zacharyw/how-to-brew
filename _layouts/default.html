@@ -14,6 +14,8 @@
 
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
+        <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+
     </head>
     <body>
         <div class="pattern">
@@ -31,27 +33,7 @@
               </div>
 
               <aside class="left-nav" role="navigation">
-                <h2>GUIDES</h2>
-                <ul>
-                    <li>
-                        <a class="extra" href="/pourover/index.html">Pour Over</a>
-                    </li>
-                    <li>
-                        <a class="extra" href="/frenchpress/index.html">French Press</a>
-                    </li>
-                    <li>
-                        <a class="extra" href="/aeropress/index.html">AeroPress</a>
-                    </li>
-                    <li>
-                        <a class="extra" href="/drip/index.html">Drip</a>
-                    </li>
-                    <li>
-                        <a class="extra" href="/coldbrew/index.html">Cold Brew</a>
-                    </li>
-                    <li>
-                        <a class="extra" href="/simplesyrup/index.html">Simple Syrup</a>
-                    </li>
-                </ul>
+                {% include guides.html %}
               </aside>
 
               <div class="content">
@@ -60,9 +42,6 @@
                 </div>
               </div>
             </div>
-        </div>
-
-        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+        </div> 
     </body>
 </html>
