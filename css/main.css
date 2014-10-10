@@ -152,6 +152,27 @@ a:visited { color: #a0a; }
   color: coral;
 }
 
+.content h1 {
+  padding-top: 1em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+}
+
+.content p.note {
+  background-color: dodgerblue;
+  color: white;
+  padding: .5em;
+  font-size: 90%;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.content p.note a, .content p.note a:visited, .content p.note a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+
 .content a {
   color: dodgerblue;
   text-decoration: underline;

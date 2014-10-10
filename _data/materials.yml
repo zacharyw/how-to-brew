@@ -7,6 +7,7 @@
     5: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "16 ounces water"
     7: "2 tablespoons coffee"
+    8: '<a href="http://www.amazon.com/gp/product/B001N07KUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N07KUE&linkCode=as2&tag=chea0d-20&linkId=GHZC4ZBYDUA3MBBH">Scale</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001N07KUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
 
 - name: "coldbrew"
   materials:
@@ -16,6 +17,7 @@
     4: "Paper filters (4 cup)"
     5: "3.5 cups water"
     6: "6 ounces coffee"
+    7: '<a href="http://www.amazon.com/gp/product/B001N07KUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N07KUE&linkCode=as2&tag=chea0d-20&linkId=GHZC4ZBYDUA3MBBH">Scale</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001N07KUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
 
 - name: "aeropress"
   materials:
@@ -26,6 +28,7 @@
     5: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "8 ounces water"
     7: "2 tablespoons coffee"
+    8: '<a href="http://www.amazon.com/gp/product/B001N07KUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N07KUE&linkCode=as2&tag=chea0d-20&linkId=GHZC4ZBYDUA3MBBH">Scale</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001N07KUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
 
 - name: "drip"
   materials:
@@ -44,6 +47,7 @@
     4: '<a target="_blank" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&keywords=coffee%20mug&linkCode=ur2&qid=1411338786&rh=n%3A1055398%2Cn%3A284507%2Cn%3A13162311%2Cn%3A367125011%2Cn%3A367142011%2Ck%3Acoffee%20mug%2Cp_n_material_browse%3A366825011&rnid=366823011&tag=chea0d-20&linkId=L4SECNSS2Y4VIZ4Z">Mug or Glass</a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
     6: "8 ounces water"
     7: "2 tablespoons coffee"
+    8: '<a href="http://www.amazon.com/gp/product/B001N07KUE/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N07KUE&linkCode=as2&tag=chea0d-20&linkId=GHZC4ZBYDUA3MBBH">Scale</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=chea0d-20&l=as2&o=1&a=B001N07KUE" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'
 
 - name: "simplesyrup"
   materials:
