@@ -158,8 +158,8 @@ a:visited { color: #a0a; }
   font-size: 1.5em;
 }
 
-.content p.note {
-  background-color: dodgerblue;
+.content .note {
+  background-color: cadetblue;
   color: white;
   padding: .5em;
   font-size: 90%;
@@ -278,8 +278,12 @@ a:visited { color: #a0a; }
     display: block;
   }
 
+  .banner-ad {
+    display: none;
+  }
+
   .header, .top-nav, .content {
-    margin-left: 20%;
+    margin-left: 22%;
   }
 
   .site {
@@ -290,4 +294,97 @@ a:visited { color: #a0a; }
   #guides-link {
     display: none;
   }
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.btn-danger {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+.btn-info {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #449d44;
+}
+
+
+
+div.button_container {
+  text-align: center;
+}
+
+.main-button {
+  display:inline-block;
+  margin:5px 20px;
+}
+
+.newsletter-container {
+  background-color: blanchedalmond;
+  color: #000;
+  margin-top: 2em;
+  padding: .5em;
+  border-radius: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+.ad-container {
+  margin-right: 1em;
+}
+
+.banner-ad {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
