@@ -388,3 +388,14 @@ div.button_container {
   margin-right: auto;
   margin-top: 2em;
 }
+
+.requirements {
+  margin-bottom: 1em;
+}
+
+.ratio-note {
+  font-size: 80%;
+  font-style: italic;
+  line-height: 1.4em;
+  margin-left: 1em;
+}
