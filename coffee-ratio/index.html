@@ -1,0 +1,194 @@
+---
+layout: default
+title: Coffee Ratios
+---
+
+<style type="text/css">
+.table-sub-header {
+	font-size: 80%;
+	font-style: italic;
+	line-height: 1.1em;
+	margin-left: 1em;
+}
+
+.coffee-table {
+	margin-left: 1em;
+}
+
+.coffee-table #measure-row {
+	color: coral;
+}
+
+.coffee-table .even {
+	background-color: lightgray;
+	color: white;
+}
+
+.coffee-table, th, td {
+	border: none;
+	border-collapse: collapse;
+}
+
+.coffee-table th, td {
+	padding: .1em .5em;
+}
+
+.even, .odd {
+	text-align: center;
+}
+
+.method {
+	text-align: left;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+@media all and (max-width: 49.9999em) {
+	.coffee-table th, td {
+		font-size: .9em;
+	}
+}
+
+
+</style>
+<h1>How much coffee should you use?</h1>
+
+<p>
+The recommended ratio of coffee to water for most brewing methods is 2 tablespoons coffee to 8 ounces of water. Use the calculator and table below to quickly calculate how much of each you will need. 
+</p>
+
+<noscript>
+	<p><strong>This page requires javascript.</strong></p>
+</noscript>
+
+<h2>Coffee/Water Ratios for 1 cup</h2>
+<p class="table-sub-header">
+	These numbers are a baseline - experiment to find what you enjoy best. Coffee connoisseurs tend to enjoy a higher coffee to water ratio, around 2 tablespoons / 6 ounce cup.
+</p>	
+<table class="coffee-table" border="0" cellspacing="0" cellpadding="0">
+	<thead>
+		<tr>
+			<th>Method</th>
+			<th colspan="3">Amount of Coffee</th>
+			<th colspan="2">Amount of Water</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr id="measure-row">
+			<td></td>
+			<td>ounces</td>
+			<td>grams</td>
+			<td>tablespoons</td>
+			<td>fluid ounces</td>
+			<td>milliliters</td>
+		<tr class="odd">
+			<td class="method">Pour Over</td>
+			<td>.38</td>
+			<td>10.6</td>
+			<td>2</td>
+			<td>8</td>
+			<td>250</td>
+		</tr>
+		<tr class="even">
+			<td class="method">AeroPress</td>
+			<td>.38</td>
+			<td>10.6</td>
+			<td>2</td>
+			<td>8</td>
+			<td>250</td>
+		</tr>
+		<tr class="odd">
+			<td class="method">French Press</td>
+			<td>.38</td>
+			<td>10.6</td>
+			<td>2</td>
+			<td>8</td>
+			<td>250</td>
+		</tr>
+		<tr class="even">
+			<td class="method">Drip</td>
+			<td>.19</td>
+			<td>5.3</td>
+			<td>1</td>
+			<td>6</td>
+			<td>175</td>
+		</tr>
+		<tr class="odd">
+			<td class="method">Cold Brew</td>
+			<td>1.5</td>
+			<td>42.5</td>
+			<td>8</td>
+			<td>7</td>
+			<td>1000</td>
+		</tr>
+	</tbody>
+</table>
+
+<p class="table-sub-header">It's probably not worth the effort to cold brew 1 cup of coffee. I would recommend a ratio of 6 ounces coffee to 28 ounces of water, which yields about 16 ounces of concentrate, which you can mix 1:1 with water or milk, yielding 32 ounces of drinkable coffee.</p>
+
+<h2>Ratio Calculator</h2>
+
+<p>
+	Enter a base ratio, and then either the amount of coffee or water you want to use to calculate the other. For example, a base ratio for cold brew could be 6 ounces coffee, 3.5 cups water. If you wanted to know how much water to use for 8 ounces of coffee, enter an 8 in the "Required Coffee" field.
+</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Base Coffee</th>
+			<th>Base Water</th>
+			<th></th>
+			<th>Required Coffee</th>
+			<th>Required Water</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><input type="text" id="base_coffee" value="6"/></td>
+			<td><input type="text" id="base_water" value="3.5"/></td>
+			<td>=</td>
+			<td><input type="text" id="desired_coffee"/></td>
+			<td><input type="text" id="desired_water"/></td>
+		</tr>
+	</tbody>
+</table>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#base_coffee, #base_water, #desired_coffee, #desired_water").keyup(function() {
+		var base_coffee = parseFloat($("#base_coffee").val());
+		var base_water = parseFloat($("#base_water").val());
+		var desired_coffee = parseFloat($("#desired_coffee").val());
+		var desired_water = parseFloat($("#desired_water").val());
+
+		if(!desired_coffee) {
+			var new_desired_coffee = base_coffee/base_water * desired_water;
+			if(!isNaN(new_desired_coffee)) {
+				$("#desired_coffee").val(new_desired_coffee);
+			}
+		}
+		else if(!desired_water) {
+			var new_desired_water = base_water/base_coffee * desired_coffee;
+			if(!isNaN(new_desired_water)) {
+				$("#desired_water").val(new_desired_water);
+			}
+		}
+	});
+
+	$("#base_coffee, #base_water").keydown(function() {
+		$("#desired_water").val("");
+		$("#desired_coffee").val("");
+	});
+
+	$("#desired_coffee").keydown(function() {
+		$("#desired_water").val("");
+	});
+
+	$("#desired_water").keydown(function() {
+		$("#desired_coffee").val("");
+	});
+});
+</script>

@@ -1,0 +1,12 @@
+<div class="requirements">
+  <div class="ratio-note">These are guidelines. Coffee connoisseurs prefer 14.1 grams per 8 ounces. For more info, check out our <a href="/coffee-ratio/index.html">coffee ratio page</a>.</div> 
+  <ul>
+    {% for method in site.data.materials %}
+      {% if method.name == {{include.name}} %}
+          {% for ratio in method.ratios %}
+            <li>{{ratio[1]}}</li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
